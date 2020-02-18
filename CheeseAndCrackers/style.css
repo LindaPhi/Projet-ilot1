@@ -1,0 +1,521 @@
+body {
+    background-color: #2a2c33;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #f1d68e;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    margin: 5vw;
+
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #f1d68e;
+}
+
+h4 {
+    color: #f1d68e;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.pblanc {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.pnoir {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+}
+
+
+/*-Partie Nav-*/
+/*--Nav Style--*/
+.sticky-nav {
+
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.h3-nav {
+
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+
+.logo-nav {
+    margin-left: 5rem;
+}
+
+.menu-link:hover {
+
+    color: #f1d68e;
+    font-size: 0.5rem;
+}
+
+.icon1 {
+    color: white;
+}
+
+.btn-cv-card {
+    background-color: #f1d68e;
+}
+
+.btn-cv-card:hover {
+    background-color: #f1d68e;
+}
+
+.nav-backgr {
+    border-bottom: 2px solid black;
+
+}
+
+.typo {
+    font-size: 0.5rem;
+    color: white;
+    margin-right: 2rem;
+
+}
+
+.portrait {
+    height: 179px;
+    width: 179px;
+    border: 7px solid #f1d68e;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.logo {
+    background-image: url("img/logoncheese.png");
+    height: 65px;
+    width: 184px;
+}
+
+.h2-special {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #f1d68e;
+    margin: 2vw;
+}
+
+/*-Partie foodtruck -*/
+.h10 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.h11 {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.truck-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+
+}
+
+.marginT {
+    padding: 20px;
+}
+
+.menu-link:hover {
+    font-family: 'Lobster', cursive;
+    color: #f1d68e;
+    font-size: 1.5em;
+}
+
+.icon1 {
+    color: white;
+}
+
+.nav-backgr {
+    background-color: #2a2c33;
+}
+
+.typo {
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.headerpic {
+    background-image: url("img/foodtruck.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 100vh;
+
+
+}
+
+.yaute {
+    padding-top: 5rem;
+    width: 100px;
+}
+
+.HYaute {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 5rem;
+}
+
+
+/*-Partie formule -*/
+.btn-formule {
+    background-color: #f1d68e;
+    color: black;
+    border-radius: .25rem;
+}
+
+.formul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*formul-background-custom*/
+.formul-1 {
+    background-image: url("img/formule-luxe.png");
+}
+
+.formul-2 {
+    background-image: url("img/formule-super.png");
+}
+
+.formul-3 {
+    background-image: url("img/formule-traditio.png");
+}
+
+.formul-4 {
+    background-image: url("img/formule-goatlette.png");
+}
+
+/*-Partie CV-*/
+/*Zone CV sur Index*/
+.craquers {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-craquers {
+    background-color: #f1d68e;
+    color: black;
+    width: 20vw;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.craquers-pic {
+    border-radius: 50%;
+    border: 2px solid #f1d68e;
+    background-color: white;
+    width: 12rem;
+    height: 12rem;
+    margin: 2rem auto;
+}
+
+.logo-craquers {
+    height: 10vh;
+}
+
+.cv {
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.cv-card {
+    text-align: center;
+    background-color: #2a2c33;
+    border: 2px solid #f1d68e;
+    margin: 1rem 0.75rem 1rem 0.75rem;
+    border-radius: 0px;
+    max-width: 320px;
+}
+
+.btn-cv-card {
+    background-color: #f1d68e;
+    border: none;
+}
+
+.btn-cv-card:hover {
+    background-color: #f1d68e;
+    color: black;
+}
+
+.sep {
+    background-color: #f1d68e;
+    height: 2px;
+}
+
+.adresse {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*page cv*/
+/*PHOTO DE PROFIL*/
+.picturetop {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    border: 5px solid #f1d68e;
+    position: relative;
+    top: 93px;
+}
+
+.titletop {
+    position: relative;
+    top: 35px;
+}
+
+/*RACLETTE*/
+.racletteback {
+    background-image: url("img/recette-raclette.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*CLASS GENERIQUE*/
+.wback {
+    background-color: white;
+}
+
+.txtcntr {
+    text-align: center;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.allcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.cv-h2 {
+    margin: 0 0 1rem 0;
+}
+
+/*-Partie Contact-*/
+/*Styles Contact-form*/
+.w80 {
+    width: 80vw;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+#cf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*-Partie Footer-*/
+/*Element bouton chatbox*/
+.popover-body {
+    background-image: url("img/chatbox-bis.png");
+    width: 300px;
+    height: 350px;
+
+}
+
+.btnchat {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    margin-right: 30%;
+}
+
+.pouet {
+    padding-top: 2rem;
+    background: linear-gradient(black, #2a2c33);
+}
+
+.footer {
+    display: grid;
+    height: auto;
+    width: 100%;
+}
+
+/*Element info*/
+.info p {
+    justify-items: start;
+    font-size: 1em;
+}
+
+/*Element bouton réseaux*/
+i {
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+}
+
+#reseau0 {
+    font-size: 40px;
+    padding: 5%;
+    text-align: center;
+    align-self: center;
+}
+
+/*Element Newsletter*/
+.titrenewsl0 {
+    text-align: center;
+}
+
+.titrenewsl1 {
+    font-size: 1em;
+    color: #f1d68e;
+}
+
+.newsletter {
+    justify-self: center;
+}
+
+.email {
+    width: auto;
+}
+
+.btn-newsletter {
+    border-radius: 3px;
+    background-color: #b4a895;
+    color: #ffffff;
+    justify-content: center;
+}
+
+/*MEDIA QUERIES*//* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+    #reseau0 {
+        font-size: 50px;
+        padding: 0 5px;
+    }
+
+    .footer {
+        height: 50vh;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width:768px) {
+    #reseau0 {
+        font-size: 60px;
+        padding: 0 10px;
+    }
+
+    .titrenewsl1 {
+        font-size: 2em;
+    }
+
+    .p-newsletters {
+        font-size: 1.5em;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width:992px) {
+    #reseau0 {
+        font-size: 70px;
+        padding: 0 10px;
+    }
+
+    .titrenewsl1 {
+        font-size: 3em;
+    }
+
+    .p-newsletters {
+        font-size: 2.25em;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width:1200px) {
+    #reseau0 {
+        font-size: 25px;
+        padding: 0 20px;
+    }
+
+    .titrenewsl1 {
+        font-size: 2em;
+    }
+
+    .p-newsletters {
+        font-size: 3em;
+    }
+
+}
+
+
+
+
+
